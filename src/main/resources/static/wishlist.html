@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAVcart - Wishlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <style>
+        .nav-item .icon { display: inline-flex; align-items: center; justify-content: center; line-height: 1; }
+        .nav-item .icon svg { display: block; }
+    </style>
+</head>
+<body>
+
+    <!-- title banner -->
+    <div class="title-banner">
+        <h1 class="site-title"><span class="title-bold">MAV</span><span class="title-italic">cart</span></h1>
+    </div>
+
+    <!-- tab bar -->
+    <div class="tab-bar">
+        <a href="index.html" class="nav-item">
+            <span class="icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </span>
+            <span>Home</span>
+        </a>
+        <a href="cart.html" class="nav-item">
+            <span class="icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            </span>
+            <span>Cart</span>
+        </a>
+        <a href="wishlist.html" class="nav-item">
+            <span class="icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </span>
+            <span>Wishlist</span>
+        </a>
+        <a href="profile.html" class="nav-item">
+            <span class="icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </span>
+            <span>Profile</span>
+        </a>
+        <a href="login.html" class="login-btn">Login</a>
+    </div>
+
+    <h3 class="section-title">Your Wishlist</h3>
+
+    <div class="product-list" id="wishlist-list">
+        <p class="empty-cart">Your wishlist is empty.</p>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p class="footer-brand">MAVcart</p>
+        <p>&copy; 2026 All rights reserved.</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+
+</body>
+</html>

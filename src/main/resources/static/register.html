@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAVcart - Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- title banner -->
+    <div class="title-banner">
+        <h1 class="site-title"><span class="title-bold">MAV</span><span class="title-italic">cart</span></h1>
+    </div>
+
+    <!-- tab bar -->
+    <div class="tab-bar">
+        <a href="index.html" class="nav-item">
+            <span class="icon">&#8962;</span>
+            <span>Home</span>
+        </a>
+        <a href="cart.html" class="nav-item">
+            <span class="icon">&#128722;</span>
+            <span>Cart</span>
+        </a>
+        <a href="wishlist.html" class="nav-item">
+            <span class="icon">&#9825;</span>
+            <span>Wishlist</span>
+        </a>
+        <a href="profile.html" class="nav-item">
+            <span class="icon">&#128100;</span>
+            <span>Profile</span>
+        </a>
+        <a href="login.html" class="login-btn">Login</a>
+    </div>
+
+    <!-- register form -->
+    <div class="auth-wrapper">
+        <div class="auth-box">
+            <h2>Create your MAVcart account</h2>
+            <p class="auth-subtext">Sign up to start shopping</p>
+
+            <form class="auth-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="you@example.com">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create a password">
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" placeholder="Re-enter your password">
+
+                <button type="submit" class="auth-btn">Register</button>
+            </form>
+
+            <p class="auth-switch">Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p class="footer-brand">MAVcart</p>
+        <p>&copy; 2026 All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

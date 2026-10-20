@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAVcart - Online Shopping</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <style>
+        .mc-banner { background: #1a1816; color: #f5f0e6; text-align: center; border-radius: 18px;
+                     margin: 40px auto; max-width: 1180px; padding: 40px 20px; }
+        .mc-banner h2 { margin: 0 0 12px; color: #c49e52; font-size: 36px; }
+        .mc-banner p { margin: 0 0 18px; font-size: 18px; }
+        .mc-code { display: inline-block; border: 1px solid #c49e52; color: #c49e52; border-radius: 6px;
+                   padding: 8px 22px; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+
+    <!-- title banner -->
+    <div class="title-banner">
+        <h1 class="site-title"><span class="title-bold">MAV</span><span class="title-italic">cart</span></h1>
+    </div>
+
+    <!-- tab bar -->
+    <div class="tab-bar">
+        <a href="index.html" class="nav-item">
+            <span class="icon">&#8962;</span>
+            <span>Home</span>
+        </a>
+        <a href="cart.html" class="nav-item">
+            <span class="icon">&#128722;</span>
+            <span>Cart</span>
+        </a>
+        <a href="wishlist.html" class="nav-item">
+            <span class="icon">&#9825;</span>
+            <span>Wishlist</span>
+        </a>
+        <a href="profile.html" class="nav-item">
+            <span class="icon">&#128100;</span>
+            <span>Profile</span>
+        </a>
+        <a href="login.html" class="login-btn">Login</a>
+    </div>
+
+    <!-- sale banner -->
+    <section class="mc-banner">
+        <h2>Big Season Sale</h2>
+        <p>Flat 30% off on all items &mdash; limited time only</p>
+        <span class="mc-code">Use code: SAVE30</span>
+    </section>
+
+    <!-- products -->
+    <section id="products">
+        <h3 class="section-title">Our Best Sellers</h3>
+        <div class="product-list" id="product-list">
+            <p>Loading products...</p>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p class="footer-brand">MAVcart</p>
+        <p>&copy; 2026 All rights reserved.</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script src="js/product.js"></script>
+
+</body>
+</html>
